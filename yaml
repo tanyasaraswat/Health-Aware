@@ -1,0 +1,40 @@
+
+---
+
+## Quick preview (local)
+
+1. Clone or download this repository.
+2. Open `index.html` in any modern browser (double-click or `File → Open`).
+3. For editing with live reload, use Visual Studio Code + Live Server extension:
+   - Open folder in VS Code.
+   - Right-click `index.html` → **Open with Live Server**.
+
+---
+
+## Prerequisites
+
+- Git installed (`git --version`)
+- A GitHub account (for publishing on GitHub Pages)
+- Optional but recommended: Visual Studio Code
+- Optional: `gh` CLI if you want to create a repository from the terminal
+
+---
+
+## Step-by-step: Create a GitHub repository & push (recommended)
+
+Follow either **A — GitHub web UI** (easier) or **B — GitHub CLI** (terminal-based).
+
+### A. Using GitHub web UI (recommended for beginners)
+
+1. Create a new repository on GitHub:
+   - Go to https://github.com → **New repository**
+   - Name it e.g. `health-aware-demo`
+   - Add a short description, **do not** initialize with a README (if you already have one locally it's okay either way)
+   - Create repo
+
+2. On your machine, prepare the project folder:
+   ```bash
+   cd path/to/your/projects
+   mkdir health-aware
+   cd health-aware
+   # copy index.html, styles.css, app.js, README.md into this folder
